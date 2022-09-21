@@ -56,7 +56,7 @@
 
 import pandas as pd
 pd.set_option("display.max_columns",None)
-df = pd.read_csv("özet/my_folders/CalismaDosyalari/persona.csv")
+df = pd.read_csv("persona.csv")
 df.head()
 df.shape
 df.info()
@@ -65,7 +65,6 @@ df.info()
 
 df["SOURCE"].nunique()
 df["SOURCE"].value_counts()
-
 
 
 # Soru 3: Kaç unique PRICE vardır?

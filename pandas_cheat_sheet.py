@@ -18,8 +18,8 @@ a.head()
 a.tail(2)
 
 # Veri Okuma
-df = pd.read_csv("dosya_dizini")
-df.head()
+#df = pd.read_csv("dosya_dizini")
+#df.head()
 
 # Veriye Hızlı Bakış
 
@@ -137,7 +137,7 @@ df_new = df.loc[(df["age"]>50) & (df["sex"]=="male")
 #sonuç itibariyle 3 farklı koşulu seçip, koşulu seçtiğimiz değişkenlerin bilgilerini yeni df e atadık.
 #koşul seççimlerini yaparken mantıksal op kullandık ve parantezlerle birbirinden ayırdık . *****
 
-df_new2["embark_town"].value_counts()
+df_new["embark_town"].value_counts()
 
 # Toplulaştırma ve Gruplama (Aggregation & Grouping)
 
@@ -278,7 +278,3 @@ df6 = pd.DataFrame({"group": ["mühendis", "çaycı", "İk"],
 df6
 
 pd.merge(df5 , df6)
-
-df7
-
-
